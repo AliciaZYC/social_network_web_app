@@ -1,38 +1,34 @@
-.App {
-  text-align: center;
+/* 将 NavBar 固定在左侧 */
+.navbar-container {
+  width: 16.66vw; /* 占屏幕1/6的宽度 */
+  min-height: 100vh; /* 占满屏幕高度 */
+  background-color: #f8f9fa; /* 背景色 */
+  padding: 20px;
+  position: fixed; /* 固定在页面左侧 */
+  top: 0;
+  left: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* 主内容区域 */
+.main-content {
+  margin-left: 16.66vw; /* 留出导航栏的空间 */
+  padding: 20px;
+  width: 83.33vw; /* 剩余的5/6宽度 */
+}
+/* 暗模式样式 */
+body.dark-mode {
+  background-color: #343a40;
+  color: #f8f9fa;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body.dark-mode .top-navbar {
+  background-color: #495057;
+  border-bottom: 1px solid #6c757d;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+body.dark-mode input,
+body.dark-mode button {
+  background-color: #6c757d;
+  color: #f8f9fa;
+  border-color: #6c757d;
 }
