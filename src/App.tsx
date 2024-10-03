@@ -9,6 +9,7 @@ import {
 import Details from "./pages/Details";
 import Home from "./pages/Home";
 import Login from "./pages/Login";
+import About from "./pages/About";
 import Profile from "./pages/Profile";
 import Search from "./pages/Search";
 import UpdateProfile from "./pages/Profile/components/UpdateProfile";
@@ -45,6 +46,7 @@ function App() {
             <Route path="/profile/:username/inbox" element={<Inbox />} />
             <Route path="/search" element={<Search />} />
             <Route path="/details/:did" element={<Details />} />
+            <Route path="/about" element={<About />} />
           </Routes>
         </div>
       </div>
