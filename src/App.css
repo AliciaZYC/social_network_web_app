@@ -16,19 +16,79 @@
   width: 83.33vw; /* 剩余的5/6宽度 */
 }
 /* 暗模式样式 */
+/* Dark mode body background and text color */
 body.dark-mode {
-  background-color: #343a40;
-  color: #f8f9fa;
+  background-color: #212529; /* Darker but distinguishable background */
+  color: #e9ecef; /* Lighter text color for better contrast */
 }
 
+/* Navbar in dark mode */
 body.dark-mode .top-navbar {
-  background-color: #495057;
-  border-bottom: 1px solid #6c757d;
+  background-color: #343a40; /* Dark gray for the navbar */
+  border-bottom: 1px solid #495057; /* Slightly lighter border for separation */
 }
 
+/* Input and buttons in dark mode */
 body.dark-mode input,
 body.dark-mode button {
-  background-color: #6c757d;
+  background-color: #495057; /* Medium gray for inputs and buttons */
+  color: #f8f9fa; /* Light text color */
+  border-color: #6c757d; /* Keep border contrast */
+}
+
+/* Hover effect for buttons in dark mode */
+body.dark-mode button:hover {
+  background-color: #6c757d; /* Lighter gray for hover effect */
+  color: #ffffff; /* Ensure text remains visible */
+}
+
+/* Links in dark mode */
+body.dark-mode a {
+  color: #adb5bd; /* Lighter color for links */
+}
+
+body.dark-mode a:hover {
+  color: #ffffff; /* Ensure links are clearly visible on hover */
+}
+/* General dark mode styling for the body */
+body.dark-mode {
+  background-color: #212529;
+  color: #e9ecef;
+}
+
+/* Dark mode for the NavBar */
+body.dark-mode .navbar-container {
+  background-color: #343a40; /* Dark background for the navbar */
+  color: #f8f9fa; /* Lighter text */
+  border-right: 1px solid #495057; /* Slightly lighter border */
+}
+
+/* Adjust avatar and button styles */
+body.dark-mode .navbar-container .btn-primary {
+  background-color: #495057;
+  border-color: #495057;
   color: #f8f9fa;
+}
+
+body.dark-mode .navbar-container .btn-primary:hover {
+  background-color: #6c757d;
   border-color: #6c757d;
+}
+
+/* Link adjustments */
+body.dark-mode .navbar-container .nav-link {
+  color: #adb5bd;
+}
+
+body.dark-mode .navbar-container .nav-link:hover {
+  color: #ffffff; /* Bright white on hover */
+}
+
+/* Icon colors in dark mode */
+body.dark-mode .navbar-container .nav-link svg {
+  color: #adb5bd;
+}
+
+body.dark-mode .navbar-container .nav-link:hover svg {
+  color: #ffffff;
 }
