@@ -6,7 +6,7 @@ import {
   Routes,
   Navigate,
 } from "react-router-dom";
-import 'bootstrap/dist/css/bootstrap.min.css';
+import "bootstrap/dist/css/bootstrap.min.css";
 import Details from "./pages/Details";
 import Home from "./pages/Home";
 import Login from "./pages/Login";
@@ -20,6 +20,7 @@ import Inbox from "./pages/Profile/components/Inbox";
 import NavBar from "./pages/navigation/navbar";
 import TopNavBar from "./pages/navigation/TopNavbar";
 import Courses from "./pages/Courses";
+import CourseDetails from "./pages/Courses/CourseDetails";
 
 function App() {
   return (
@@ -50,11 +51,15 @@ function App() {
             <Route path="/details/:did" element={<Details />} />
             <Route path="/about" element={<About />} />
             <Route path="/courses" element={<Courses />} />
+            <Route path="/courses/:cid" element={<CourseDetails />} />
           </Routes>
         </div>
       </div>
       <footer className="text-center mt-5">
-        <p>© copyright @ 2022 by <span>mr. web designer</span> | all rights reserved!</p>
+        <p>
+          © copyright @ 2022 by <span>mr. web designer</span> | all rights
+          reserved!
+        </p>
       </footer>
     </Router>
   );
