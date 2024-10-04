@@ -42,7 +42,7 @@ const NavBar: React.FC = () => {
           <FaChalkboardTeacher className="me-2" />
           <span>Teachers</span>
         </Link>
-        <Link to="/courses" className="nav-link d-flex align-items-center mb-3">
+        <Link to="/Courses/index.tsx" className="nav-link d-flex align-items-center mb-3">
           <FaBook className="me-2" />
           <span>Courses</span>
         </Link>

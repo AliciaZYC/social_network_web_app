@@ -6,6 +6,7 @@ import {
   Routes,
   Navigate,
 } from "react-router-dom";
+import 'bootstrap/dist/css/bootstrap.min.css';
 import Details from "./pages/Details";
 import Home from "./pages/Home";
 import Login from "./pages/Login";
@@ -18,6 +19,7 @@ import LikedVideos from "./pages/Profile/components/LikedVideos";
 import Inbox from "./pages/Profile/components/Inbox";
 import NavBar from "./pages/navigation/navbar";
 import TopNavBar from "./pages/navigation/TopNavbar";
+import Courses from "./pages/Courses";
 
 function App() {
   return (
@@ -47,9 +49,13 @@ function App() {
             <Route path="/search" element={<Search />} />
             <Route path="/details/:did" element={<Details />} />
             <Route path="/about" element={<About />} />
+            <Route path="/courses" element={<Courses />} />
           </Routes>
         </div>
       </div>
+      <footer className="text-center mt-5">
+        <p>© copyright @ 2022 by <span>mr. web designer</span> | all rights reserved!</p>
+      </footer>
     </Router>
   );
 }

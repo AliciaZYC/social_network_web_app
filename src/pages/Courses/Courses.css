@@ -1,0 +1,40 @@
+.container {
+    max-width: 1200px;
+  }
+  
+  .course-card {
+    border: none;
+    background: #f9f9f9;
+    transition: transform 0.3s;
+  }
+  
+  .course-card:hover {
+    transform: scale(1.02);
+  }
+  
+  .author-image {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  
+  .course-image {
+    max-width: 100px;
+    margin-bottom: 15px;
+  }
+  
+  .course-card h4 {
+    margin-top: 15px;
+    font-size: 1.2rem;
+  }
+  
+  footer {
+    padding: 20px;
+    background: #f1f1f1;
+    color: #333;
+  }
+  
+  footer span {
+    color: #e74c3c;
+  }
+  
