@@ -14,7 +14,7 @@ const SigninForm = () => {
   return (
     <div
       className="d-flex justify-content-center align-items-center"
-      style={{ minHeight: "100vh" }}
+      // style={{ minHeight: "100vh" }}
     >
       <div className="container" style={{ maxWidth: "400px" }}>
         <p className="text-center">maybe putting a logo here</p>
