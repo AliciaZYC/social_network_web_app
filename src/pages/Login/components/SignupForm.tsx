@@ -14,10 +14,16 @@ const SignupForm = () => {
   return (
     <div className="d-flex justify-content-center align-items-center">
       <div className="container" style={{ maxWidth: "400px" }}>
-        <p className="text-center">maybe putting a logo here</p>
+        <p className="text-center">
+          <img
+            src="/images/logo.jpg"
+            alt="Logo"
+            style={{ maxWidth: "50%", height: "50%" }}
+          />
+        </p>
         <h3 className="login-page-title  text-center">Create a new account</h3>
         <p className="login-page-txt-sm  text-center">
-          Sign up to explore "TODO: name of our app"
+          Sign up to explore <strong>VERTEX STUDIO</strong>
         </p>
         <form onSubmit={handleSignup}>
           <div className="mb-3">

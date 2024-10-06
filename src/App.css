@@ -15,6 +15,14 @@
   padding: 20px;
   width: 83.33vw; /* 剩余的5/6宽度 */
 }
+.top-navbar {
+  margin-left: 16.66vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 83.33%;
+  z-index: 1000; /* Ensures the navbar stays on top of other content */
+}
 /* 暗模式样式 */
 /* Dark mode body background and text color */
 body.dark-mode {

@@ -35,7 +35,15 @@ const TopNavBar: React.FC = () => {
       style={{ backgroundColor: "#f8f9fa", borderBottom: "1px solid #dee2e6" }}
     >
       {/* 左侧：应用名称 */}
-      <h3 className="mb-0">name of our app</h3>
+      <p className="d-flex align-items-center">
+        <Link to="/" className="d-flex align-items-center">
+          <img
+            src="/images/logo-text.jpg"
+            alt="Logo"
+            style={{ maxWidth: "200px", height: "auto" }}
+          />
+        </Link>
+      </p>
 
       {/* 中间：搜索框和按钮 */}
       <div className="d-flex align-items-center">

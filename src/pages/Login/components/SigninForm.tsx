@@ -17,7 +17,13 @@ const SigninForm = () => {
       // style={{ minHeight: "100vh" }}
     >
       <div className="container" style={{ maxWidth: "400px" }}>
-        <p className="text-center">maybe putting a logo here</p>
+        <p className="text-center">
+          <img
+            src="/images/logo.jpg"
+            alt="Logo"
+            style={{ maxWidth: "50%", height: "50%" }}
+          />
+        </p>
         <h3 className="login-page-title text-center">Login to your account</h3>
         <p className="login-page-txt-sm text-center">Welcome back</p>
         <form onSubmit={handleSignin}>
