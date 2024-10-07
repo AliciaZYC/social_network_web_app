@@ -12,6 +12,7 @@
 /* 主内容区域 */
 .main-content {
   margin-left: 16.66vw; /* 留出导航栏的空间 */
+  margin-top: 70px;
   padding: 20px;
   width: 83.33vw; /* 剩余的5/6宽度 */
 }

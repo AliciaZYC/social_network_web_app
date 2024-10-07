@@ -16,7 +16,7 @@ const SignupForm = () => {
       <div className="container" style={{ maxWidth: "400px" }}>
         <p className="text-center">
           <img
-            src="/images/logo.jpg"
+            src="/images/logo.png"
             alt="Logo"
             style={{ maxWidth: "50%", height: "50%" }}
           />
