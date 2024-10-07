@@ -6,6 +6,7 @@ import {
   FaChalkboardTeacher,
   FaBriefcase,
 } from "react-icons/fa";
+import RatingComponent from "./components/Rating";
 
 export default function About() {
   return (
@@ -64,130 +65,106 @@ export default function About() {
       </div>
       {/* reviews */}
       <div className="reviews">
-        <h1 className="heading">student's reviews</h1>
-        <div className="box-container">
-          <div className="box">
-            <p>
+        <h1 className="heading">Student's Reviews</h1>
+        <div className="card-container">
+          <div className="card">
+            <p className="card-content">
               Lorem ipsum dolor sit amet consectetur, adipisicing elit.
               Necessitatibus, suscipit a. Quibusdam, dignissimos consectetur.
               Sed ullam iusto eveniet qui aut quibusdam vero voluptate libero
               facilis fuga. Eligendi eaque molestiae modi?
             </p>
-            <div className="student">
+            <div className="card-footer">
               <img src="images/pic-2.jpg" alt="" />
               <div>
                 <h3>john deo</h3>
                 <div className="stars">
-                  <i className="fas fa-star"></i>
-                  <i className="fas fa-star"></i>
-                  <i className="fas fa-star"></i>
-                  <i className="fas fa-star"></i>
-                  <i className="fas fa-star-half-alt"></i>
+                  <RatingComponent rating={5} />
                 </div>
               </div>
             </div>
           </div>
-          <div className="box">
-            <p>
+          <div className="card">
+            <p className="card-content">
               Lorem ipsum dolor sit amet consectetur, adipisicing elit.
               Necessitatibus, suscipit a. Quibusdam, dignissimos consectetur.
               Sed ullam iusto eveniet qui aut quibusdam vero voluptate libero
               facilis fuga. Eligendi eaque molestiae modi?
             </p>
-            <div className="student">
+            <div className="card-footer">
               <img src="images/pic-3.jpg" alt="" />
               <div>
                 <h3>john deo</h3>
                 <div className="stars">
-                  <i className="fas fa-star"></i>
-                  <i className="fas fa-star"></i>
-                  <i className="fas fa-star"></i>
-                  <i className="fas fa-star"></i>
-                  <i className="fas fa-star-half-alt"></i>
+                  <RatingComponent rating={5} />
                 </div>
               </div>
             </div>
           </div>
-          <div className="box">
-            <p>
+          <div className="card">
+            <p className="card-content">
               Lorem ipsum dolor sit amet consectetur, adipisicing elit.
               Necessitatibus, suscipit a. Quibusdam, dignissimos consectetur.
               Sed ullam iusto eveniet qui aut quibusdam vero voluptate libero
               facilis fuga. Eligendi eaque molestiae modi?
             </p>
-            <div className="student">
+            <div className="card-footer">
               <img src="images/pic-4.jpg" alt="" />
               <div>
                 <h3>john deo</h3>
                 <div className="stars">
-                  <i className="fas fa-star"></i>
-                  <i className="fas fa-star"></i>
-                  <i className="fas fa-star"></i>
-                  <i className="fas fa-star"></i>
-                  <i className="fas fa-star-half-alt"></i>
+                  <RatingComponent rating={4.5} />
                 </div>
               </div>
             </div>
           </div>
-          <div className="box">
-            <p>
+          <div className="card">
+            <p className="card-content">
               Lorem ipsum dolor sit amet consectetur, adipisicing elit.
               Necessitatibus, suscipit a. Quibusdam, dignissimos consectetur.
               Sed ullam iusto eveniet qui aut quibusdam vero voluptate libero
               facilis fuga. Eligendi eaque molestiae modi?
             </p>
-            <div className="student">
+            <div className="card-footer">
               <img src="images/pic-5.jpg" alt="" />
               <div>
                 <h3>john deo</h3>
                 <div className="stars">
-                  <i className="fas fa-star"></i>
-                  <i className="fas fa-star"></i>
-                  <i className="fas fa-star"></i>
-                  <i className="fas fa-star"></i>
-                  <i className="fas fa-star-half-alt"></i>
+                  <RatingComponent rating={5} />
                 </div>
               </div>
             </div>
           </div>
-          <div className="box">
-            <p>
+          <div className="card">
+            <p className="card-content">
               Lorem ipsum dolor sit amet consectetur, adipisicing elit.
               Necessitatibus, suscipit a. Quibusdam, dignissimos consectetur.
               Sed ullam iusto eveniet qui aut quibusdam vero voluptate libero
               facilis fuga. Eligendi eaque molestiae modi?
             </p>
-            <div className="student">
+            <div className="card-footer">
               <img src="images/pic-6.jpg" alt="" />
               <div>
                 <h3>john deo</h3>
                 <div className="stars">
-                  <i className="fas fa-star"></i>
-                  <i className="fas fa-star"></i>
-                  <i className="fas fa-star"></i>
-                  <i className="fas fa-star"></i>
-                  <i className="fas fa-star-half-alt"></i>
+                  <RatingComponent rating={4.5} />
                 </div>
               </div>
             </div>
           </div>
-          <div className="box">
-            <p>
+          <div className="card">
+            <p className="card-content">
               Lorem ipsum dolor sit amet consectetur, adipisicing elit.
               Necessitatibus, suscipit a. Quibusdam, dignissimos consectetur.
               Sed ullam iusto eveniet qui aut quibusdam vero voluptate libero
               facilis fuga. Eligendi eaque molestiae modi?
             </p>
-            <div className="student">
+            <div className="card-footer">
               <img src="images/pic-7.jpg" alt="" />
               <div>
                 <h3>john deo</h3>
                 <div className="stars">
-                  <i className="fas fa-star"></i>
-                  <i className="fas fa-star"></i>
-                  <i className="fas fa-star"></i>
-                  <i className="fas fa-star"></i>
-                  <i className="fas fa-star-half-alt"></i>
+                  <RatingComponent rating={4.5} />
                 </div>
               </div>
             </div>

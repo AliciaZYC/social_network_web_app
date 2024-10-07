@@ -75,3 +75,50 @@
   font-size: 1.5rem;
   color: var(--orange);
 }
+
+/* Container styles for the cards */
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Three equal columns */
+  gap: 20px; /* Space between the cards */
+  padding: 20px; /* Optional padding around the container */
+}
+
+/* Card styles */
+.card {
+  width: 100%;
+  height: 300px; /* Fixed height for the card */
+  background-color: #f8f9fa; /* Unified background color for the card */
+  border: 1px solid #dee2e6; /* Border around the card */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  display: flex;
+  flex-direction: column; /* Column layout for card content */
+  justify-content: space-between; /* Space out the content */
+  overflow: hidden; /* Hide overflow */
+}
+
+/* Paragraph section (65% of the card's height) */
+.card .card-content {
+  flex: 0 0 65%; /* Takes up 65% of the card height */
+  padding: 15px;
+  overflow-y: auto; /* Allow scrolling if the content is too long */
+  font-size: 1.1rem; /* Larger text size for better readability */
+  line-height: 1.5; /* Improved line spacing */
+}
+
+/* Avatar and student's name section (35% of the card's height) */
+.card .card-footer {
+  flex: 0 0 35%; /* Takes up 35% of the card height */
+  display: flex;
+  align-items: center; /* Center the content vertically */
+  padding: 10px;
+  background-color: #f8f9fa; /* Same background color as the card */
+}
+
+.card .card-footer img {
+  width: 70px; /* Fixed size for the avatar */
+  height: 70px;
+  border-radius: 50%; /* Circular avatar */
+  margin-right: 10px; /* Space between the avatar and the name */
+}

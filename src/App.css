@@ -13,6 +13,7 @@
 .main-content {
   margin-left: 16.66vw; /* 留出导航栏的空间 */
   margin-top: 70px;
+  margin-bottom: 60px;
   padding: 20px;
   width: 83.33vw; /* 剩余的5/6宽度 */
 }
@@ -100,4 +101,18 @@ body.dark-mode .navbar-container .nav-link svg {
 
 body.dark-mode .navbar-container .nav-link:hover svg {
   color: #ffffff;
+}
+
+footer {
+  position: fixed;
+  margin-left: 16.66vw;
+  bottom: 0;
+  left: 0;
+  width: 83.33%;
+  height: 60px;
+  background-color: #f8f9fa; /* You can change this to match your design */
+  padding: 10px 0;
+  text-align: center;
+  border-top: 1px solid #dee2e6; /* Optional border for a more defined look */
+  z-index: 1000; /* Ensure the footer stays on top of other elements */
 }
