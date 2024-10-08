@@ -1,56 +1,92 @@
 [
   {
-    "cid": "html",
+    "cid": "1",
     "img": "pic-2.jpg",
     "thumb": "thumb-1.png",
-    "title": "complete HTML tutorial"
+    "title": "Complete HTML Tutorial",
+    "instructor": "John Doe",
+    "description": "Learn the basics of HTML and build your first webpage.",
+    "date": "21-10-2022",
+    "videosCount": 10
   },
   {
-    "cid": "css",
+    "cid": "2",
     "img": "pic-3.jpg",
     "thumb": "thumb-2.png",
-    "title": "complete CSS tutorial"
+    "title": "CSS Masterclass",
+    "instructor": "Jane Smith",
+    "description": "Master the art of CSS for modern web design.",
+    "date": "18-09-2022",
+    "videosCount": 12
   },
   {
-    "cid": "js",
+    "cid": "3",
     "img": "pic-4.jpg",
     "thumb": "thumb-3.png",
-    "title": "complete JS tutorial"
+    "title": "Complete JS Tutorial",
+    "instructor": "David Johnson",
+    "description": "Become proficient in JavaScript with in-depth tutorials.",
+    "date": "05-11-2022",
+    "videosCount": 15
   },
   {
-    "cid": "bootstrap",
+    "cid": "4",
     "img": "pic-5.jpg",
     "thumb": "thumb-4.png",
-    "title": "complete Bootstrap tutorial"
+    "title": "Bootstrap Tutorial",
+    "instructor": "Emily Davis",
+    "description": "Learn how to build responsive websites with Bootstrap.",
+    "date": "12-08-2022",
+    "videosCount": 8
   },
   {
-    "cid": "jquery",
+    "cid": "5",
     "img": "pic-6.jpg",
     "thumb": "thumb-5.png",
-    "title": "complete JQuery tutorial"
+    "title": "JQuery Essentials",
+    "instructor": "Michael Brown",
+    "description": "Understand JQuery to simplify your web development.",
+    "date": "25-07-2022",
+    "videosCount": 11
   },
   {
-    "cid": "sass",
+    "cid": "6",
     "img": "pic-7.jpg",
     "thumb": "thumb-6.png",
-    "title": "complete SASS tutorial"
+    "title": "SASS Masterclass",
+    "instructor": "Sarah Lee",
+    "description": "Master SASS and create powerful stylesheets.",
+    "date": "10-09-2022",
+    "videosCount": 9
   },
   {
-    "cid": "php",
+    "cid": "7",
     "img": "pic-8.jpg",
     "thumb": "thumb-7.png",
-    "title": "complete PHP tutorial"
+    "title": "PHP for Beginners",
+    "instructor": "Chris Wilson",
+    "description": "Learn PHP from scratch to create dynamic websites.",
+    "date": "02-10-2022",
+    "videosCount": 14
   },
   {
-    "cid": "mysql",
+    "cid": "8",
     "img": "pic-9.jpg",
     "thumb": "thumb-8.png",
-    "title": "complete MySQL tutorial"
+    "title": "MySQL Database Mastery",
+    "instructor": "Anna Thompson",
+    "description": "Master MySQL and manage complex databases.",
+    "date": "15-11-2022",
+    "videosCount": 13
   },
   {
-    "cid": "react",
+    "cid": "9",
     "img": "pic-1.jpg",
     "thumb": "thumb-9.png",
-    "title": "complete React tutorial"
+    "title": "React Tutorial",
+    "instructor": "William Anderson",
+    "description": "Learn to build interactive UIs with React.",
+    "date": "05-12-2022",
+    "videosCount": 18
   }
 ]

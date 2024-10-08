@@ -1,0 +1,77 @@
+.container {
+  max-width: 900px;
+}
+
+.card {
+  background-color: #f8f9fa; /* Light background */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+  border: none;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.card .btn-purple {
+  background-color: #6f42c1; /* Purple button color */
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.card .btn-purple:hover {
+  background-color: #5a34a3; /* Darker shade on hover */
+}
+
+.action-card {
+  width: 200px; /* Fixed width for action cards */
+  background-color: #e9ecef; /* Light background color */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.icon {
+  font-size: 2rem;
+  color: #343a40; /* Dark color for the icon */
+  margin-bottom: 10px;
+}
+
+h4 {
+  color: #6f42c1; /* Purple color for numbers */
+}
+
+.btn-purple {
+  background-color: #6f42c1; /* Purple color */
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.btn-purple:hover {
+  background-color: #5a34a3; /* Darker shade on hover */
+  transform: translateY(-2px); /* Slight lift on hover */
+}
+
+.form-control:focus {
+  border-color: #6f42c1;
+  box-shadow: 0 0 0 0.2rem rgba(111, 66, 193, 0.25); /* Purple shadow on focus */
+}
+
+.thumbnail-container {
+  position: relative;
+  overflow: hidden; /* Ensure thumbnail fits perfectly */
+  border-radius: 8px 0 0 8px; /* Rounded left corners for the image */
+}
+
+.badge {
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.6
+  ); /* Dark transparent background for badge */
+  color: white; /* White text for better contrast */
+  font-size: 0.8rem; /* Smaller font size */
+}

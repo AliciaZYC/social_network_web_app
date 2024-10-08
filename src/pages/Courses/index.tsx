@@ -12,7 +12,7 @@ export default function Courses() {
       <div className="row">
         {courses.map((course) => (
           <div className="col-md-4 mb-4" key={course.cid}>
-            <div className="card">
+            <div className="course-card">
               <div className="card-body">
                 <div className="tutor d-flex align-items-center mb-3">
                   <img
